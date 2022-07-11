@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 // ** component type class (shortcout rcc | rccp)
-class Greeting extends Component {
+class GreetingClass extends Component {
 
     constructor(props) {
         super(props);
@@ -44,10 +44,10 @@ class Greeting extends Component {
     
 }
 
-Greeting.propTypes = {
+GreetingClass.propTypes = {
     name:PropTypes.string,
 
 };
 
 
-export default Greeting;
+export default GreetingClass;

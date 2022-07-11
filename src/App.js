@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './components/pure/greeting';
+import GreetingClass from './components/pure/greetingClass';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-      <Greeting name="Vittorio"></Greeting>
+      <GreetingClass name="Vittorio"></GreetingClass>
       </header>
     </div>
   );
